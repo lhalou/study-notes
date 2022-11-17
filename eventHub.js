@@ -49,7 +49,12 @@ const test = new LqEventHub()
 // const f2 = function f() {
 //     console.log('2222')
 // }
-
+function f1 () {
+    console.log('111')
+}
+function f2() {
+    console.log('222')
+}
 test.subscribe('click', f1)
 test.subscribe('click', f2)
 test.publish("click")
