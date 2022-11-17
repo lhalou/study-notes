@@ -1,5 +1,5 @@
 //obj = {click: [callBack1, callBack2]}
-
+//实现发布订阅
 class LqEventHub {
     constructor() {
         this.eventHubObj = {}
